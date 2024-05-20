@@ -32,26 +32,30 @@ window.addEventListener("scroll", () => {
     scrolimage.classList.remove("picttt");
   }
   // scroll skills
-  if (window.scrollY >= 64 && window.scrollY <= 987) {
-    landd.classList.add("landdd");
-  } else {
-    landd.classList.remove("landdd");
-  }
-  if (window.scrollY >= 78 && window.scrollY <= 1400) {
+  
+  // didint allowed for this project
+  // if (window.scrollY >= 170 && window.scrollY <= 987) {
+  //   landd.classList.add("landdd");
+  // } else {
+  //   landd.classList.remove("landdd");
+  // }
+  if (window.scrollY >= 276 && window.scrollY <= 1722) {
     myskillss.classList.add("myskillsjj");
   } else {
     myskillss.classList.remove("myskillsjj");
   }
-  if (window.scrollY >= 480 && window.scrollY <= 1512) {
-    landingg.classList.add("landinggg");
-  } else {
-    landing.classList.remove("landinggg");
-  }
-  if (window.scrollY >= 609 && window.scrollY <= 1620) {
+  // didint allowed for this project
+  // if (window.scrollY >= 970 && window.scrollY <= 1930) {
+  //   landingg.classList.add("landinggg");
+  // } else {
+  //   landing.classList.remove("landinggg");
+  // }
+  if (window.scrollY >= 975 && window.scrollY <= 1939) {
     mynfl.classList.add("nflll");
   } else {
     mynfl.classList.remove("nflll");
   }
+    // didint allowed for this project
   if (
     window.scrollY >=
       banding.offsetTop - document.documentElement.clientHeight &&
@@ -91,3 +95,23 @@ function managepro() {
     pre.style.display = "block";
   });
 }
+// i will didint do this because its from ai
+// const sectionObservers = [];
+
+// sec.forEach(section => {
+//   const observer = new IntersectionObserver((entries, observer) => {
+//     entries.forEach(entry => {
+//       if (entry.isIntersecting) {
+//         // عندما يتم عرض القسم في الشاشة، قم بتطبيق الكلاس الذي يحتوي على الأنيميشن
+//         entry.target.classList.add('secc');
+//         // بعد تنفيذ الأنيميشن، توقف المراقب عن مراقبة القسم
+      
+//       }
+//     });
+//   });
+
+//   // بدء مراقبة القسم
+//   observer.observe(section);
+//   // حفظ المراقب في مصفوفة للاستخدام فيما بعد
+//   sectionObservers.push(observer);
+// });
