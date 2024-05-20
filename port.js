@@ -39,7 +39,7 @@ window.addEventListener("scroll", () => {
   // } else {
   //   landd.classList.remove("landdd");
   // }
-  if (window.scrollY >= 276 && window.scrollY <= 1722) {
+  if (window.scrollY >= 250 && window.scrollY <= 1722) {
     myskillss.classList.add("myskillsjj");
   } else {
     myskillss.classList.remove("myskillsjj");
