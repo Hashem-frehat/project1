@@ -91,7 +91,7 @@ function managepro() {
   projects.forEach((pro) => {
     pro.style.display = "none";
   });
-  console.log(document.querySelectorAll(this.dataset.esc));
+  // console.log(document.querySelectorAll(this.dataset.esc));
   document.querySelectorAll(this.dataset.esc).forEach((pre) => {
     pre.style.display = "block";
   });
