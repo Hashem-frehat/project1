@@ -811,8 +811,8 @@ nav .checkbtn i{
   width: 80px;
   height: 80px;
   display: flex;
-   justify-content: center;
-   align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 @media only screen and (max-width: 768px) {
   .checkbtn{
@@ -824,19 +824,52 @@ nav .checkbtn i{
     left: -36px;
   }
   nav ul li{
-  
-  
+    
+    
     margin-bottom: 5px;
     border-spacing: 5px;
     width: 49px;
     height: 49px;
- 
+    
   }
   nav .checkbtn i{
     width: 49px;
     height: 49px;
     display: flex;
-     justify-content: center;
-     align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+  nav .checkbtn i{
+    width: 49px;
+    height: 49px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
+
+#checkk,#checkk2, #checkk3, #checkk4 {
+ display: none;
+}
+#checkk:checked ~ .checkbtnicon .ic1{
+
+  color: #33d1cc;
+
+}
+#checkk2:checked ~ .checkbtnicon .ic2{
+
+  color: #33d1cc;
+
+}
+#checkk3:checked ~ .checkbtnicon .ic3{
+
+  color: #33d1cc;
+
+}
+#checkk4:checked ~ .checkbtnicon .ic4{
+
+  color: #33d1cc;
+
+}
+

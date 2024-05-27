@@ -13,6 +13,7 @@ window.addEventListener("scroll", () => {
   let landd = document.getElementById("land");
   let firstt = document.getElementById("first");
   let scroltop = document.documentElement.scrollTop;
+  // console.log(scroltop);
   let scroltopp = parseInt(scroltop);
   let scrolimage = document.getElementById("pictt");
   let landingg = document.getElementById("landing");
@@ -39,7 +40,7 @@ window.addEventListener("scroll", () => {
   // } else {
   //   landd.classList.remove("landdd");
   // }
-  if (window.scrollY >= 250 && window.scrollY <= 1722) {
+  if (window.scrollY >= 245 && window.scrollY <= 1722) {
     myskillss.classList.add("myskillsjj");
   } else {
     myskillss.classList.remove("myskillsjj");
